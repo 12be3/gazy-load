@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<h1>Hello World!</h1>
+
+		<img
+			src="#"
+			data-src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+			alt=""
+			data-refresh
+		/>
+		<img
+			src="#"
+			data-src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+			alt=""
+			data-refresh
+		/>
+		<img
+			src="#"
+			data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VyxrW-DGCl4sYd5g4Rj8lUKLgteK1YhlRQo4AxJb&s"
+			alt=""
+			data-refresh
+		/>
+		<picture>
+			<source
+				media="(min-width:1200.5px)"
+				data-srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHjtRx8sDZr_utjTHO2sRzFafs1m6TSyACxw6v-lvlc7Wk9JgXEVOoOw9nJg5aY96HsyE&usqp=CAU"
+			/>
+			<source
+				media="(max-width:1200px)"
+				data-srcset="https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+			/>
+			<img
+				src="#"
+				data-src="https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+				alt=""
+				data-refresh
+			/>
+		</picture>
+		<video
+			playsinline
+			autoplay
+			muted
+			data-refresh
+			data-src="test_video.mp4"
+		></video>
+
+		<script
+			src="http://cdn.glivera-team.com/gsap/3-10-4/gsap.min.js"
+			type="text/javascript"
+		></script>
+		<script
+			src="http://cdn.glivera-team.com/gsap/3-10-4/scrolltrigger.min.js"
+			type="text/javascript"
+		></script>
+		<script src="../src/index.js" type="text/javascript"></script>
+	</body>
+</html>
